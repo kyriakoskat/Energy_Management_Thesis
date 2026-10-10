@@ -1,0 +1,78 @@
+{
+  "name": "Thesis: original 20-player partition",
+  "players": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "data_dir": "../data/private/processed_data_clean",
+  "output_dir": "../outputs/thesis_20_recorded_partition",
+  "start_day": "2020-01-01",
+  "end_day": "2020-12-31",
+  "seed": 42,
+  "representative": {
+    "clusters": 12,
+    "initializations": 50
+  },
+  "formation": {
+    "method": "milp",
+    "group_size": 4,
+    "time_limit_seconds": 3600,
+    "random_partitions": 5
+  },
+  "shapley_players": [
+    1,
+    3,
+    5,
+    17,
+    14,
+    18,
+    19,
+    20
+  ],
+  "shapley_start_day": "2020-06-01",
+  "shapley_end_day": "2020-06-30",
+  "stability": true,
+  "demand_response": {
+    "capacities_kwh": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80
+    ],
+    "reference_capacities_kwh": [
+      185
+    ],
+    "cap_ratios": [
+      0.8
+    ],
+    "recovery_modes": [
+      "battery_aware",
+      "cheapest_price",
+      "surplus_first"
+    ]
+  },
+  "partition_file": "../docs/reference_results/thesis_20_subcoalitions.csv"
+}

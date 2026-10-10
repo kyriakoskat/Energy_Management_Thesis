@@ -1,0 +1,17 @@
+{
+  "name": "Synthetic demonstration",
+  "demo": true,
+  "demo_days": 6,
+  "players": [1, 2, 3, 4, 5, 6],
+  "output_dir": "../outputs/demo",
+  "seed": 42,
+  "representative": {"clusters": 2, "initializations": 10},
+  "formation": {"group_size": 2, "random_partitions": 2, "time_limit_seconds": 30},
+  "shapley_players": [1, 2, 4, 5],
+  "stability": true,
+  "demand_response": {
+    "capacities_kwh": [0, 10, 20],
+    "reference_capacities_kwh": [40],
+    "recovery_modes": ["battery_aware", "cheapest_price"]
+  }
+}

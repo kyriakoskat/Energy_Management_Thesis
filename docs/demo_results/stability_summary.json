@@ -1,0 +1,6 @@
+{
+  "accepted_profitable_moves": 0,
+  "candidate_moves": 6,
+  "criterion": "weakest-player accepted single-player migration",
+  "days": 6
+}

@@ -1,0 +1,128 @@
+{
+  "completed_stages": [
+    "prepare",
+    "representative",
+    "scores",
+    "formation",
+    "evaluate",
+    "allocation",
+    "stability",
+    "shapley",
+    "demand_response",
+    "report"
+  ],
+  "config": {
+    "battery": {
+      "blcoe_eur_kwh": 0.05,
+      "capacity_kwh": 10.0,
+      "cyclic_soc": true,
+      "degradation_weight": 0.5,
+      "depth_of_discharge": 0.85,
+      "fixed_cost_eur": 0.0,
+      "grid_export_max_kw": 20.0,
+      "grid_import_max_kw": 20.0,
+      "initial_soc_fraction": 0.5,
+      "power_kw": 3.3,
+      "roundtrip_efficiency": 0.95,
+      "solver_time_limit_seconds": null,
+      "trade_epsilon": 0.001
+    },
+    "data_dir": "../data/private/processed_data_clean",
+    "demand_response": {
+      "activation_metric": "max_import_cost",
+      "activation_periods": 4,
+      "allow_recovery_before_activation": true,
+      "cap_ratios": [
+        0.8
+      ],
+      "capacities_kwh": [
+        0,
+        10,
+        20
+      ],
+      "enabled": true,
+      "recovery_modes": [
+        "battery_aware",
+        "cheapest_price"
+      ],
+      "recovery_periods": 16,
+      "reduction_fractions": [
+        0.2
+      ],
+      "reference_capacities_kwh": [
+        40
+      ],
+      "strategy": "cap"
+    },
+    "demo": true,
+    "demo_days": 6,
+    "end_day": null,
+    "formation": {
+      "exact_max_players": 30,
+      "group_size": 2,
+      "local_passes": 100,
+      "local_patience": 1000,
+      "local_starts": 100,
+      "method": "auto",
+      "random_partitions": 2,
+      "time_limit_seconds": 30
+    },
+    "name": "Synthetic demonstration",
+    "output_dir": "../outputs/demo",
+    "partition_file": null,
+    "players": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "repair_small_gaps": false,
+    "representative": {
+      "clusters": 2,
+      "initializations": 10,
+      "max_iterations": 100,
+      "standardize": true
+    },
+    "seed": 42,
+    "shapley_end_day": null,
+    "shapley_players": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "shapley_start_day": null,
+    "stability": true,
+    "start_day": null
+  },
+  "data_kind": "synthetic_demo",
+  "days": [
+    "2020-06-01",
+    "2020-06-02",
+    "2020-06-03",
+    "2020-06-04",
+    "2020-06-05",
+    "2020-06-06"
+  ],
+  "dependencies": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "ortools": "9.15.6755",
+    "pandas": "2.2.3"
+  },
+  "fingerprint": "41d34bd22eaec71dd9455bbab9184c6e6e471afefe2bf224692ff2f274202b4b",
+  "framework_version": "1.0.0",
+  "input_sha256": {
+    "H1_15min.csv": "764b5ac111815ce1447899ad51bd8937e05031b9ddfa5a90dedd102d82abab3d",
+    "H2_15min.csv": "9814d26bfffc19651d6abee1e8d0fa3818c962474681cd940d6ba1fd7e7e238a",
+    "H3_15min.csv": "f115bcb72b41727bc2f2daa7425d42b6c2249bbe3a1a1812b2b3a800512547ff",
+    "H4_15min.csv": "c0fb96e4cd05b64cf403b5dac388d39af8420f18c569c06ad218723370efcf3d",
+    "H5_15min.csv": "7dec7e270d3a418db4c98ed12dd75399cc0266f8aa5e80cc584c7d8b803bb1df",
+    "H6_15min.csv": "63f05d3fbbddf2baafbb4123d2877b10e35a4079a67fc6825d17c18f6409c6e2",
+    "ireland_prices_15min.csv": "e4e4346e26231c40b60c4fbc03838bcaabe4c632b11da29652688481813ba7a9"
+  },
+  "model_cache_version": 1,
+  "python": "3.12.14"
+}

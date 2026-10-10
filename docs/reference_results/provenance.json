@@ -1,0 +1,9 @@
+{
+  "original_run": "2026-06-15_12-12-09",
+  "original_file_sha256": {
+    "annual_summary.csv": "d36622e2a8fef14c5c59376a97fc4fd9727f411c14c8d62864d340cb3e000790",
+    "selected_subcoalitions_used.csv": "5f39b05ded63d2e6b3ed357b203c8bb3b0f02c5f3c007d51df3cb2e30695a5b9",
+    "daily_grand_vs_subcoalitions.csv": "3c60584f53315fdca4bd96547bf76b75d20e6f07084ea0587d541d4b812b7fdb"
+  },
+  "description": "Recorded thesis outputs; machine-specific input path omitted from the annual summary."
+}

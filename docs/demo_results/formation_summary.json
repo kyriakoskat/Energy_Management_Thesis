@@ -1,0 +1,8 @@
+{
+  "certified_lexicographic_optimum": true,
+  "method": "milp",
+  "solve_seconds": 0.02457347800009302,
+  "stage1_status": "OPTIMAL",
+  "stage2_status": "OPTIMAL",
+  "stage2_used": true
+}

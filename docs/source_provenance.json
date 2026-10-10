@@ -1,0 +1,22 @@
+{
+  "original_source_folder": "Ireland_Dataset",
+  "original_script_sha256": {
+    "run_coalition_real_data.py": "9fde34eedab7dc5b2c147f4c2340188d64a5525c1876e0c1f5338ddbce1d1661",
+    "subcoalition_decomposition_experiment.py": "e23f4533e5f3ce76ddcf279441e32af64d877cd9600e7db110bbf0b9cd107402",
+    "01_dataset_audit.py": "c6e43a4a22842ccd616e1e756c4db38383f9f55fe24506ebe09733cccc4aa0a4",
+    "01c_repair_small_missing_gaps_v3.py": "cacd0faa46a383312e4930ac569d4291f1b3f90ea2cb8fd93ac3b483f86275c4",
+    "01d_finalize_clean_dataset_drop_unresolved_days.py": "90991aeffbda2ebc69925aa2e5db419a98a0478dc2e572b122165a417d03405e",
+    "02_select_extreme_and_kmedoids_days.py": "448fddf8540142f4adadec58988da8583b2f36c8521481efcb331e3904a80fec",
+    "03_build_pairwise_scores_from_representative_days.py": "0bb163f18c4ef34ed7bf02c135c88002605ffa0ea15b06f9a48ffa4ad5e0fbd3",
+    "04_form_subcoalitions_lexicographic_only_30_people_full.py": "4226a830ea5841ed431b741abee194308110f409cca92697832d9f63ede154a7",
+    "04_form_subcoalitions_pairwise_local_search_50p_25p25c_s5.py": "03639c23a57af07c3359125f81b8ee09c0dd67071c6f3880eee0e644fd6e6f41",
+    "05_annual_evaluation_grand_vs_subcoalitions.py": "57f99970ed7f9ce161d8bba9fa5be9b04eebd514dc5e051093d4927da2232cbb",
+    "06_full_year_accepted_migration_stability_20_people.py": "38cb3ce28bc20ac9e883514f412e9dddea5e0b708f1b922ad68236410106a24a",
+    "09_demand_response_targeted_load_shift.py": "4ea0eea386cdc9e5baa55a7a3f760c0d163be10602d73cf989782e10b79c97a5"
+  },
+  "final_document_sha256": {
+    "thesis.pdf": "34cc83bed829cd921f00103ecd95aa4d2f78842d68ee6c196890c4d8ebb4f8f8",
+    "thesis_presentation.pdf": "eae00121d8b2746f240a5bfedd0ed85d507d9e2201a15272ef23a295d81eace9"
+  },
+  "framework": "Refactored common optimizer and orchestration, with clustering and DR functions adapted from the original experiments."
+}

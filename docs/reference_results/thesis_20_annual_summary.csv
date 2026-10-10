@@ -1,0 +1,25 @@
+metric,value,unit
+method,kmedoids_12_plus_2_extreme__lexicographic_max_min,
+run_id,2026-06-15_12-12-09,
+subcoalitions,"1,6,9,14 | 2,7,15,19 | 3,8,13,18 | 4,5,11,16 | 10,12,17,20",
+number_of_players,20,players
+number_of_subcoalitions,5,groups
+valid_days_solved,343,days
+skipped_days,0,days
+annual_baseline_total_cost,7259.680763625023,EUR
+annual_solo_total_cost,6670.890354973835,EUR
+annual_grand_coalition_cost,6373.423974422517,EUR
+annual_subcoalitions_total_cost,6411.050498579009,EUR
+annual_solo_scheduling_gain_vs_baseline,588.790408651188,EUR
+annual_grand_coordination_gain_vs_solo,297.46638055131825,EUR
+annual_subcoalitions_coordination_gain_vs_solo,259.8398563948258,EUR
+annual_grand_total_gain_vs_baseline,886.2567892025063,EUR
+annual_subcoalitions_total_gain_vs_baseline,848.6302650460138,EUR
+recovered_grand_coordination_gain_pct,87.35099943504332,%
+profit_loss_vs_grand_coordination_gain_pct,12.649000564956685,%
+absolute_coordination_gain_loss_vs_grand,37.62652415649245,EUR
+total_runtime_sec,2773.872723340988,sec
+solver,SCIP,
+solver_time_limit_seconds,,sec
+trade_epsilon,0.001,
+match_initial_final_soc,True,
